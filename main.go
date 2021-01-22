@@ -12,5 +12,5 @@ package main
 	
 	func main() {
 		http.HandleFunc("/", greet)
-		http.ListenAndServe(":8080", nil)
+		http.ListenAndServe(":3000", nil)
 	}
