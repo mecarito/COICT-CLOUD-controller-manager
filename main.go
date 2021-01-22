@@ -12,5 +12,6 @@ package main
 	
 	func main() {
 		http.HandleFunc("/", greet)
-		http.ListenAndServe(":3000", nil)
+		fmt.Println( http.ListenAndServe(":3000", nil))
+		fmt.Println("serving on PORT 3000")
 	}
